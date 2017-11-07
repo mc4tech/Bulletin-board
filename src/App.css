@@ -5,18 +5,21 @@ html,
 div.board,
 div#react-container {
   height: 100%;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 body {
   margin: 0;
   padding: 0;
+   background: url(school-bulletin-board-clipart.gif) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 div.board {
-  background-color: 'brown';
   width: 100%;
-  background: #eab92d;
 }
 
 div.note {
@@ -64,7 +67,8 @@ div.note > textarea {
 
 .board > button {
   position: fixed;
-  top: 10px;
+  top: 20px;
   right: 10px;
   font-size: 1.5em;
 }
+
